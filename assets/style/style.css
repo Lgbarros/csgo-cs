@@ -1,0 +1,121 @@
+/*Fonte*/
+
+@font-face {
+    font-family: 'Regular';
+    src: url('../font/cs_regular.ttf');
+}
+
+h1 {
+    font-family: 'REGULAR' !important;
+    color: #e6e6e4 !important;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'REGULAR' !important;
+    font-size: 35px;
+    text-align: center;
+    color: #f59c1c;
+}
+
+p {
+    font-family: 'REGULAR' !important;
+    font-size: 20px;
+    text-align: center;
+    color: #f59c1c;
+}
+
+header{
+    background-image: url("../img/bg3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 102%;
+}
+
+#banner {
+    margin-top: 24%;
+    margin-left: 57%;
+    width: 55%;
+}
+
+.c4 {
+    width: 150px;
+    border-radius: 15px;
+    -webkit-filter: saturate(0.3);
+    -webkit-transition: .2s all ease-in;
+}
+
+.c4:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1);
+    -webkit-filter: saturate(1);
+}
+
+.button-header {
+    background-image:url("../img/c4.png") !important;
+    color: #f59c1c !important;
+    border: 1px black solid !important;
+    height: 100%;
+}
+
+.dust2 {
+    background-image: url("../img/bg4.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 102%;
+}
+
+.dust2 img{
+    filter: grayscale(70%);
+}
+
+.inferno {
+    background-image: url("../img/bg2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 102%;
+}
+
+#img-csgo {
+    border-radius: 15px;
+    -webkit-filter: saturate(0.3);
+    -webkit-transition: .2s all ease-in;
+}
+
+#img-csgo:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1);
+    -webkit-filter: saturate(1);
+    
+}
+
+figcaption {
+    text-align: center;
+    color: #f59c1c;
+}
+
+footer {
+    font-family: 'Regular';
+    display: fixed;
+    width: 100%;
+    height: 4%;
+    background-color: black;
+    color: #f59c1c;
+    font-size: 20px;
+    text-align: center;
+    padding: 0.5%;
+}
+
+footer:hover {
+    color: white;
+    cursor: pointer;
+}
