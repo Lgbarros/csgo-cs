@@ -5,30 +5,74 @@
     src: url('../font/cs_regular.ttf');
 }
 
-h1 {
-    font-family: 'REGULAR' !important;
-    color: #e6e6e4 !important;
+:root{
+    --background-header: url("../img/banner-csgo.jpg");
+    --font: 'REGULAR' !important;
+    --primary-color: #e6e6e4 !important;
+}
+
+.csgo{
+    --background-header: url("../img/banner-csgo.jpg");
+}
+
+h1{
+    font-family: var(--font);
+    color: var(--primary-color);
     font-weight: 300;
     font-size: 35px;
     text-align: center;
 }
 
-h2 {
+h2{
     font-family: 'REGULAR' !important;
     font-size: 35px;
     text-align: center;
     color: #f59c1c;
 }
 
-p {
+p{
     font-family: 'REGULAR' !important;
     font-size: 20px;
     text-align: center;
     color: #f59c1c;
 }
 
+.cs header{
+    --background-header: url("../img/banner-cs.jpg");
+}
+
+.cs #banner{
+    margin-top: 24%;
+    margin-left: -7%;
+    width: 55%;
+}
+
+.cs h1 {
+    content: "ASUIEHASUEHSAUEHSUAHESAUH";
+    font-family: var(--font);
+    color: #bab50f;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+}
+
+.cs h2 {
+    font-family: var(--font);
+    color: #bab50f
+}
+
+.cs p {
+    font-family: var(--font);
+    color: #bab50f
+}
+
+.cs figcaption {
+    color: #bab50f;
+    font-family: var(--font);
+}
+
 header{
-    background-image: url("../img/bg3.jpg");
+    background-image: var(--background-header);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,12 +107,13 @@ header{
 }
 
 .dust2 {
-    background-image: url("../img/bg4.png");
+    background-image: url("../img/banner-csgo-d2.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 102%;
+    filter: grayscale(0.2);
 }
 
 .dust2 img{
@@ -76,7 +121,7 @@ header{
 }
 
 .inferno {
-    background-image: url("../img/bg2.png");
+    background-image: url("../img/banner-csgo-inferno.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -101,6 +146,8 @@ header{
 figcaption {
     text-align: center;
     color: #f59c1c;
+    font-family: var(--font);
+    font-size: 15px;
 }
 
 footer {
