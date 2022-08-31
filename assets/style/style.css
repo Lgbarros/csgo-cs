@@ -9,6 +9,8 @@
     --background-header: url("../img/banner-csgo.jpg");
     --font: 'REGULAR' !important;
     --primary-color: #e6e6e4 !important;
+    --background-header-d2 : url("../img/banner-csgo-d2.png");
+    --background-header-inferno : url("../img/banner-csgo-inferno.png");
 }
 
 .csgo{
@@ -48,7 +50,6 @@ p{
 }
 
 .cs h1 {
-    content: "ASUIEHASUEHSAUEHSUAHESAUH";
     font-family: var(--font);
     color: #bab50f;
     font-weight: 300;
@@ -107,13 +108,18 @@ header{
 }
 
 .dust2 {
-    background-image: url("../img/banner-csgo-d2.png");
+    background-image: var(--background-header-d2);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 102%;
     filter: grayscale(0.2);
+    border-top: 1px solid white;
+}
+
+.cs .dust2 {
+    background-image: url("../img/banner-cs-section-1.png");
 }
 
 .dust2 img{
@@ -121,12 +127,17 @@ header{
 }
 
 .inferno {
-    background-image: url("../img/banner-csgo-inferno.png");
+    background-image: var(--background-header-inferno);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 102%;
+    border-top: 15px solid white;
+}
+
+.cs .inferno {
+    background-image: url("../img/banner-cs-section-2.png");
 }
 
 #img-csgo {
@@ -160,6 +171,7 @@ footer {
     font-size: 20px;
     text-align: center;
     padding: 0.5%;
+    border-top: 1px solid white;
 }
 
 footer:hover {
