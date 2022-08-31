@@ -140,13 +140,13 @@ header{
     background-image: url("../img/banner-cs-section-2.png");
 }
 
-#img-csgo {
+.img-csgo {
     border-radius: 15px;
     -webkit-filter: saturate(0.3);
     -webkit-transition: .2s all ease-in;
 }
 
-#img-csgo:hover {
+.img-csgo:hover {
     cursor: pointer;
     transition: 1s;
     transform: scale(1.1);
