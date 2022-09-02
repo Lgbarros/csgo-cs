@@ -244,4 +244,9 @@ footer:hover {
         margin-top: 35% !important;
         margin-left: 60% !important;
     }
+
+    .cs #banner {
+        margin-top: 24% !important;
+        margin-left: -7% !important;
+    }
 }
