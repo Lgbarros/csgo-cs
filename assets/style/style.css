@@ -23,6 +23,7 @@ h1{
     font-weight: 300;
     font-size: 35px;
     text-align: center;
+    text-shadow: 3px 3px black;
 }
 
 h2{
@@ -30,6 +31,7 @@ h2{
     font-size: 35px;
     text-align: center;
     color: #f59c1c;
+    text-shadow: 3px 3px black;
 }
 
 p{
@@ -37,6 +39,7 @@ p{
     font-size: 20px;
     text-align: center;
     color: #f59c1c;
+    text-shadow: 3px 3px black;
 }
 
 .cs header{
@@ -113,6 +116,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 2%;
     height: 102%;
     filter: grayscale(0.2);
     border-top: 1px solid white;
@@ -132,6 +136,8 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 4%;
+    padding-right: 2%;
     height: 102%;
     border-top: 15px solid white;
 }
@@ -159,6 +165,7 @@ figcaption {
     color: #f59c1c;
     font-family: var(--font);
     font-size: 15px;
+    text-shadow: 3px 3px black;
 }
 
 footer {
@@ -193,7 +200,7 @@ footer:hover {
 
     #banner {
         margin-top: 4%;
-        margin-left: 0%;
+        margin-left: 2%;
         width: 0%;
         text-align: center;
         width: 390px;
@@ -201,7 +208,7 @@ footer:hover {
 
     .cs #banner {
         margin-top: 16%;
-        margin-left: 0%;
+        margin-left: 2%;
         width: 0%;
         text-align: center;
         width: 390px;
@@ -229,5 +236,12 @@ footer:hover {
 
     #base-ct-inferno {
         display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    #banner {
+        margin-top: 35% !important;
+        margin-left: 60% !important;
     }
 }
